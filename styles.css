@@ -1,0 +1,118 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/rough-wall-texture-wall-background-house-facade-with-spatula-picture-id928718792");
+}
+
+.header {
+    background-color: #f4d742;
+    padding: 25px;
+    text-align: center;
+}
+
+.otherPages {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.subH, .subA, .subP, .subB {
+    margin: 4px 2px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.subH {
+    background-color: green;
+}
+
+.subA {
+    background-color: blue;
+}
+
+.subP {
+    background-color: purple;
+}
+
+.subB {
+    background-color: red;
+}
+
+.postContainer {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 45px;
+    box-shadow: 0px 0px 10px 8px #888888;
+}
+
+.lamp, .laptop, .headphones, .mailbox, .jabberBall, .refrigerator, .microwave, .wristwatch, .advanceSP, .motorola {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.phone {
+    width: 300px;
+}
+
+.max {
+    max-width: 100%;
+}
+
+.qr {
+    display: none;
+}
+
+#highlightG {
+    border: 1px solid black;
+    position: absolute;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -176px;
+    left: 221px;
+    z-index: 1;
+    border-color: green;
+}
+
+#highlightB {
+    border: 1px solid black;
+    position: absolute;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -158px;
+    left: 221px;
+    z-index: 1;
+    border-color: blue;
+}
+
+#highlightP {
+    border: 1px solid black;
+    position: absolute;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -185px;
+    left: 205px;
+    z-index: 1;
+    border-color: purple;
+}
+
+#highlightR {
+    border: 1px solid black;
+    position: absolute;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -197px;
+    left: 222px; 
+    z-index: 1;
+    border-color: red;
+}
+
+#highlightG, #highlightB, #highlightR, #highlightP {
+    display: none;
+}
